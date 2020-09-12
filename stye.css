@@ -52,13 +52,22 @@ img {
     right: 0;
     border-radius: 3px 0 0 3px;
   }
-  
 
-/* Pulse Grow Animation */
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover, .next:hover, .prev:focus, .next:focus, .prev:active, .next:active {
+    -webkit-animation-name: pulse-grow-on-hover;
+    animation-name: pulse-grow-on-hover;
+    -webkit-animation-duration: 0.3s;
+    animation-duration: 0.3s;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    -webkit-animation-direction: alternate;
+    animation-direction: alternate;
+  }
 
-/*===================*/
-/* PULSE GROW
-/*===================*/
+  /* Pulse Grow Animation */
 
 @-webkit-keyframes pulse-grow-on-hover {
   to {
@@ -73,27 +82,8 @@ img {
   }
 }
 
-.pulse-grow-on-hover:hover, .pulse-grow-on-hover:focus, .pulse-grow-on-hover:active {
-  -webkit-animation-name: pulse-grow-on-hover;
-  animation-name: pulse-grow-on-hover;
-  -webkit-animation-duration: 0.3s;
-  animation-duration: 0.3s;
-  -webkit-animation-timing-function: linear;
-  animation-timing-function: linear;
-  -webkit-animation-iteration-count: infinite;
-  animation-iteration-count: infinite;
-  -webkit-animation-direction: alternate;
-  animation-direction: alternate;
-}
-
 /* End of Animation */
 
-
-
-  /* On hover, add a black background color with a little bit see-through */
-  .prev:hover, .next:hover, .prev:focus, .next:focus, .prev:active, .next:active {
-   
-  }
   
   /* Caption text */
   .text {

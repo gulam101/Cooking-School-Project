@@ -8,17 +8,31 @@
 </head>
 <body>
     <ul>
-        <li><a class="active" href="#home">Home</a></li>
+      <div class="t-container">
+      <p class="t-one"><span>Cooking</span> School</p>
+    </div>
         <li><a href="#news">News</a></li>
         <li><a href="#contact">Contact</a></li>
         <li><a href="#about">About</a></li>
+        <li><a class="active" href="#home">Home</a></li>
       </ul>
 
-      <div class="slideshow-container">
+      <style>
+        .t-one {
+          position: absolute;
+          color: green;
+          padding-left: 5px;
+          font-size: 30px;
+          top: -30; 
+        }
 
-        <div class="title">
-            <h1>Cooking School</h1>
-        </div>
+        span {
+          font-size: 25px;
+          color: orange;
+        }
+      </style>
+
+      <div class="slideshow-container">
 
         <div class="mySlides fade">
           <img src="/pictures/img01.jpeg" style="width:100%">
@@ -44,6 +58,42 @@
           <span class="dot" onclick="currentSlide(3)"></span> 
         </div>
       
+
+        <div class="menu-h1">
+        <h1>Check Out Our Menu!</h1>
+        </div>
+
+        <div class="row">
+          <div class="column">
+            <img src="./pictures/img04.jpg" class="anim-one" alt="Snow" style="height:350px;" style="width:100%">
+          </div>
+          <div class="column">
+            <img src="./pictures/img04.jpg" class="anim-two" alt="Forest" style="height:350px;" style="width:100%">
+          </div>
+          <div class="column">
+            <img src="./pictures/img04.jpg" class="anim-two" alt="Mountains" style="height:350px;" style="width:100%">
+          </div>
+        </div>
+
+
+        <style>
+          .menu-h1 {
+            text-align: center;
+          }
+
+          .row {
+            display: flex;
+          }
+
+          .anim-one:hover {
+            transform: scale(1.0);
+          }
+
+          .column {
+            flex: 33.33%;
+            padding: 5px;
+          }
+        </style>
         
         <script>
     

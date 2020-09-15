@@ -153,12 +153,12 @@ ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    overflow: hidden;
+    overflow: hidden; 
     background-color: #333;
   }
   
   li {
-    float: left;
+    float: right;
   }
   
   li a {
@@ -179,15 +179,15 @@ ul {
   }
 /* End of NavBar */
 
-/* Title */
-.title h1 {
-    text-align: center;
-    font-style: italic;
-}
-/* End of title */
-
 /* Slideshow */
 .slide-show {
     background-image: url(./pictures/img01.jpg);
     height: 30%;
+}
+
+.span-class {
+  float: left;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
 }

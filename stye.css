@@ -170,20 +170,17 @@ ul {
     font-size: 17px
   }
   
-  li a:hover:not(.active) {
-    background-color: #111;
+  li a:hover {
+  font-style: italic;
+  text-decoration: underline;
   }
   
   .active {
     background-color: #4CAF50;
+    font-style: italic;
+    text-decoration: underline;
   }
 /* End of NavBar */
-
-/* Slideshow */
-.slide-show {
-    background-image: url(./pictures/img01.jpg);
-    height: 30%;
-}
 
 .span-class {
   float: left;

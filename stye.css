@@ -244,20 +244,20 @@ ul {
   color: #4CAF50;
 }
 
-
 /* Our Services */
 
-  .flex-grid {
+.flex-grid {
   display: flex;
-  padding-top: 11px;
-  }
+  padding-top: 31px;
+  padding-bottom: 31px;
+}
 
-  .col {
+.col {
   flex: 1;
   border-style: solid;
   padding-left: 25px;
   padding-right: 25px;
-  }
+}
 
 /* For images */
   .column {

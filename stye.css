@@ -37,6 +37,8 @@ img {
     vertical-align: middle;
     height: 50%;
     background-size: cover;
+    object-fit: cover;
+    object-position: 50% 50%;
 }
 
 /* DO NOT ALTER - consists of core elements */
@@ -50,6 +52,13 @@ h1 {
 h2 {
   color: #f8f8ff;
   font-size: 30px;
+}
+
+h3 {
+  color: #4CAF50;
+  font-size: 25px;
+  padding-right: 15px;
+  padding-left: 15px;
 }
 
 /* Slideshow Animation */

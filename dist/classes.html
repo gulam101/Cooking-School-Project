@@ -11,8 +11,8 @@
     <ul>
       <p class="t-one"><span>Cooking</span> School</p>
         <li><a href="./dist/signup.html"> Sign Up </a></li>
-        <li><a href="./dist/classes.html"> Cooking Classes </a></li>
-        <li><a class="active" href="#home"> Home </a></li>
+        <li><a class="active" href="./dist/classes.html"> Cooking Classes </a></li>
+        <li><a href="../index.html"> Home </a></li>
       </ul>
 
       <style>
@@ -30,24 +30,42 @@
         clear: both;
       }
 
+      .container {
+          position: relative;
+      }
+
       .resize {
           width: 100%;
-          height: 500px;
+          border: 0.5px solid #4CAF50;
       }
+
+      .img-title {
+        position: absolute;
+        bottom: 20px;
+        right: 20px;
+        background-color: black;
+        padding-left: 20px;
+        padding-right: 20px;
+      }
+
       </style>
       </head>
-      <body>
       
-      <h2>Three Equal Columns</h2>
-      
+      <h1 style="text-align: center;">Check Out Our Classes!</h1>
+
       <div class="row">
         <div class="column">
-          <img src="../pictures/img01.jpeg" class="resize" alt="" srcset="">
+            <div class="container">
+                <img src="../pictures/img01.jpeg" class="resize" alt="" srcset="">
+          <div class="img-title">
+              <p>test</p>
+          </div>
+            </div>
         </div>
-        <div class="column" style="background-color:#bbb;">
+        <div class="column">
             <img src="../pictures/img01.jpeg" class="resize" alt="" srcset="">
         </div>
-        <div class="column" style="background-color:#ccc;">
+        <div class="column">
             <img src="../pictures/img01.jpeg" class="resize" alt="" srcset="">
         </div>
       </div>

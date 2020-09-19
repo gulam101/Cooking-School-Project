@@ -8,11 +8,13 @@
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap" rel="stylesheet">
 </head>
 <body>
+
+  <div class="navbar">
     <ul>
-      <p class="t-one"><span>Cooking</span> School</p>
+      <p class="t-one"><span>Cooking</span> School </p>
         <li><a href="./dist/signup.html"> Sign Up </a></li>
-        <li><a href="./dist/classes.html"> Cooking Classes </a></li>
-        <li><a class="active" href="#home"> Home </a></li>
+        <li><a class="active" href="./dist/classes.html"> Cooking Classes </a></li>
+        <li><a href="../index.html"> Home </a></li>
       </ul>
 
       <div class="slideshow-container">
@@ -176,6 +178,16 @@ function currentSlide(index) {
     }
     slides[index-1].style.display = "block";  
     dots[index-1].className += " active";
+}
+
+/* Toggle between showing and hiding the navigation menu links when the user clicks on the hamburger menu / bar icon */
+function myFunction() {
+  var x = document.getElementById("myLinks");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
 }
 
     

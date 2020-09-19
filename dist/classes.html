@@ -8,12 +8,18 @@
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap" rel="stylesheet">
 </head>
 <body>
+    <div class="navbar">
     <ul>
       <p class="t-one"><span>Cooking</span> School </p>
         <li><a href="./dist/signup.html"> Sign Up </a></li>
         <li><a class="active" href="./dist/classes.html"> Cooking Classes </a></li>
         <li><a href="../index.html"> Home </a></li>
       </ul>
+      <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
       
       <h1 style="text-align: center;">Check Out Our Classes!</h1>
       <p style="padding-left: 25px;">Please note that due to covid-19 we are going to be having fewer classes avaliable!</p>
@@ -44,25 +50,24 @@
         </div>
 
         <h3 style="text-align: center;"> Online Classes: </h3>
-        <p style="padding-left: 25px;"> Please note that good internet connection and speakers are needed! </p>
-
+      
         <div class="container-text">
             <div class="new-row">
-                <div class="top-left-column">
+                <div class="firstClass">
                     <a href="#">    
-                    <img src="../pictures/img01.jpeg" class="main-style" alt="Commerical" style="width:100%">
+                    <img src="../pictures/img07.jpg" class="main-style" alt="" style="width:100%">
                     </a>
                     <p class="center-text">Beginners</p>
                  </div>
-               <div class="top-right-column">
+               <div class="secondClass">
                 <a href="#">
-                <img src="../pictures/img05.jpg" class="main-style" alt="" style="width:100%">
+                <img src="../pictures/img08.jpg" class="main-style" alt="" style="width:100%">
                 </a>
                 <p class="center-text">Intermediate</p>
               </div>
-               <div class="bottom-left-column">
+               <div class="thirdClass">
                 <a href="arhitect_sevices.html">
-                <img src="../pictures/img06.jpg" class="main-style" alt="Forest" style="width:100%">
+                <img src="../pictures/img09.jpg" class="main-style" alt="" style="width:100%">
                 </a>
                 <p class="center-text">Advanced</p>
                </div>
@@ -70,8 +75,17 @@
             </div>
         
 
+            <script>
+              /* Toggle between showing and hiding the navigation menu links when the user clicks on the hamburger menu / bar icon */
+function myFunction() {
+  var x = document.getElementById("myLinks");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
+            </script>
     
-
-        </script>
 </body>
 </html>

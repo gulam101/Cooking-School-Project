@@ -8,6 +8,8 @@ body {
     margin: 0;
     font-family: 'Open Sans', sans-serif;
     position: relative;
+    height: 100%;
+    min-height: 100%;
 }
 
 /* For Logo at the top */
@@ -295,21 +297,6 @@ ul {
     display: table;
     clear: both;
   }
-  
-
-/* Footer */
-footer {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  background-color: #333;
-  }
-
-footer p {
-  text-align: center;
-  color: #ffffff;
-}
 
 /*  Cooking Classes */
 
@@ -418,3 +405,41 @@ footer p {
 
 /* End of Cooking Classes */
 
+/* Footer */
+
+footer {
+  position: relative;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #333;
+  clear: both;
+  height: 60px;   
+  margin-bottom: -30px;
+
+  /* clear: both;
+  position: relative;
+  height: 200px;
+  margin-top: -200px;
+  background-color: red; */
+}
+
+footer p {
+  text-align: center;
+  color: #ffffff;
+}
+
+@media only screen and (max-width: 767px) {
+  footer {
+    /* Fixes for footer breaking */
+    position: absolute;
+    bottom: -250;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  footer {
+    /* Fixes for footer breaking */
+    
+  }
+}

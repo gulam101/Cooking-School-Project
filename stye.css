@@ -325,7 +325,27 @@ ul {
     clear: both;
   }
 
-/*  Cooking Classes */
+  /* Customer Satisfaction  */
+  .background {
+    background-color: #333;
+    color: #4CAF50;
+    padding-top: 15px;
+  }
+  
+  .background p {
+    text-align: center;
+  }
+  
+  .background-container {
+    padding-bottom: 55px;
+    padding-right: 35px;
+    padding-left: 35px;
+  }
+
+
+/* End of index.html */
+
+/*  For cooking.html */
 
 .new-row {
   display: flex;

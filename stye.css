@@ -1,15 +1,28 @@
+/* https://medium.com/@zerox/keep-that-damn-footer-at-the-bottom-c7a921cb9551 for footer fix */
+
+
 * {
   box-sizing: border-box;
 }
+
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+/* For main-container (Fixes footer) */
+html,
+body {
+  height: 100%;
+  position: relative;
+}
+
 
 body {
     background-color: #f8f8ff;
     padding: 0;
     margin: 0;
     font-family: 'Open Sans', sans-serif;
-    position: relative;
-    height: 100%;
-    min-height: 100%;
 }
 
 /* For Logo at the top */
@@ -42,6 +55,20 @@ img {
     object-fit: cover;
     object-position: 50% 50%;
 }
+
+/* Main Container */
+
+.main-container {
+  /* will cover the 100% of viewport */
+  min-height: 100vh; 
+  overflow: hidden;
+  display: block;
+  position: relative;
+  /* height of your footer */
+  padding-bottom: 100px; 
+ } 
+
+/* End of Main Container */
 
 /* DO NOT ALTER - consists of core elements */
 
@@ -408,38 +435,28 @@ ul {
 /* Footer */
 
 footer {
-  position: relative;
+  /* position: relative;
   bottom: 0;
   left: 0;
   right: 0;
   background-color: #333;
   clear: both;
   height: 60px;   
-  margin-bottom: -30px;
+  margin-bottom: -30px; */
 
   /* clear: both;
   position: relative;
   height: 200px;
   margin-top: -200px;
   background-color: red; */
+
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background-color: #333;
 }
 
 footer p {
   text-align: center;
   color: #ffffff;
-}
-
-@media only screen and (max-width: 767px) {
-  footer {
-    /* Fixes for footer breaking */
-    position: absolute;
-    bottom: -250;
-  }
-}
-
-@media only screen and (max-width: 767px) {
-  footer {
-    /* Fixes for footer breaking */
-    
-  }
 }

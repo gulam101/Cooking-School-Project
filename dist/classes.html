@@ -7,6 +7,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap" rel="stylesheet">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
   <!-- jQuery Modal -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
@@ -19,38 +20,66 @@
     <div class="navbar">
     <ul>
       <p class="t-one"><span>Cooking</span> School </p>
-        <li><a href="./dist/signup.html"> Sign Up </a></li>
-        <li><a class="active" href="./dist/classes.html"> Cooking Classes </a></li>
+      <li><a href="./signup.html"> Contact Us </a></li>
+        <li><a href="./signup.html"> Online </a></li>
+        <li><a class="active" href="./dist/classes.html"> Classes </a></li>
         <li><a href="../index.html"> Home </a></li>
       </ul>
   </header>
       
   <section>
-      <h1 style="text-align: center;">Check Out Our Classes!</h1>
-      
+      <h1 style="text-align: center;">Check Out Our Classes!</h1>      
 
       <div class="container-text">
         <div class="new-row">
             <div class="firstClass">
-                <a href="#">    
-                <img src="../pictures/img01.jpeg" class="main-style" alt="Click here for begineers" style="width:100%">
-                </a>
+              <a href="#info-opener" rel="modal:open">
+                <img src="../pictures/img01.jpeg" class="main-style filterDiv cars" alt="Click here for begineers" style="width:100%">
+              </a>
                 <p class="center-text">Beginners</p>
              </div>
            <div class="secondClass">
-            <a href="#">
+            <a href="#info-opener" rel="modal:open">
             <img src="../pictures/img05.jpg" class="main-style" alt="Click here for interimate classes" style="width:100%">
             </a>
             <p class="center-text">Intermediate</p>
           </div>
            <div class="thirdClass">
-            <a href="#">
+            <a href="#info-opener" rel="modal:open">
             <img src="../pictures/img06.jpg" class="main-style" alt="Click here for advanced classes" style="width:100%">
             </a>
             <p class="center-text">Advanced</p>
            </div>
           </div>
         </div>
+    
+
+        <style>
+
+        </style>
+
+  <!-- MODAL -->
+
+  <div id="info-opener" style="background-color: #333;" class="modal">
+    <h2 style="color: #4caf50">What you will learn:</h2>
+    <p style="color: #f8f8f8">
+      Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt
+      ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo
+      dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor
+      sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
+      tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et
+      accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus
+      est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr,
+      sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
+      voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren,
+      no sea takimata sanctus est Lorem ipsum dolor sit amet.
+    </p>
+    <a href="#" class="button-exit" rel="modal:close">Close</a>
+  </div>
+
+
+
+
 
         <h3 style="text-align: center;"> Online Classes: </h3>
       
@@ -69,7 +98,7 @@
                 <p class="center-text">Intermediate</p>
               </div>
                <div class="thirdClass">
-                <a href="arhitect_sevices.html">
+                <a href="">
                 <img src="../pictures/img09.jpg" class="main-style" alt="" style="width:100%">
                 </a>
                 <p class="center-text">Advanced</p>
@@ -78,12 +107,73 @@
             </div>
   </section>
 
-  <style>
-  
-  </style>
+
 
   <div class="wrapper">
-  <a href="#" class="button">Click here to learn more</a>
+  <a href="#ex1" rel="modal:close" class="button">Click here to learn more</a>
+</div>
+
+<script>
+  // Open modal in AJAX callback
+$('#manual-ajax').click(function(event) {
+  event.preventDefault();
+  this.blur(); // Manually remove focus from clicked link.
+  $.get(this.href, function(html) {
+    $(html).appendTo('body').modal();
+  });
+});
+
+
+filterSelection("all")
+function filterSelection(c) {
+  var x, i;
+  x = document.getElementsByClassName("filterDiv");
+  if (c == "all") c = "";
+  for (i = 0; i < x.length; i++) {
+    w3RemoveClass(x[i], "show");
+    if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
+  }
+}
+
+function w3AddClass(element, name) {
+  var i, arr1, arr2;
+  arr1 = element.className.split(" ");
+  arr2 = name.split(" ");
+  for (i = 0; i < arr2.length; i++) {
+    if (arr1.indexOf(arr2[i]) == -1) {element.className += " " + arr2[i];}
+  }
+}
+
+function w3RemoveClass(element, name) {
+  var i, arr1, arr2;
+  arr1 = element.className.split(" ");
+  arr2 = name.split(" ");
+  for (i = 0; i < arr2.length; i++) {
+    while (arr1.indexOf(arr2[i]) > -1) {
+      arr1.splice(arr1.indexOf(arr2[i]), 1);     
+    }
+  }
+  element.className = arr1.join(" ");
+}
+
+// Add active class to the current button (highlight it)
+var btnContainer = document.getElementById("myBtnContainer");
+var btns = btnContainer.getElementsByClassName("btn");
+for (var i = 0; i < btns.length; i++) {
+  btns[i].addEventListener("click", function(){
+    var current = document.getElementsByClassName("active");
+    current[0].className = current[0].className.replace(" active", "");
+    this.className += " active";
+  });
+}
+
+
+
+</script>
+
+<!-- AJAX response must be wrapped in the modal's root class. -->
+<div class="modal">
+  <p>Second AJAX Example!</p>
 </div>
         
 
@@ -94,7 +184,7 @@
 
 
 <div id="cookieConsent">
-  Please note that due to covid-19 we are going to be having fewer classes avaliable!. <a href="https://www.nhs.uk/conditions/coronavirus-covid-19/" target="_blank">Vist the NHS website for more information</a>. <a class="cookieConsentOK">I Understand</a>
+  Please note that due to covid-19 we are going to be having fewer classes avaliable! <a href="https://www.nhs.uk/conditions/coronavirus-covid-19/" target="_blank">Vist the NHS website for more information</a>. <a class="cookieConsentOK">I Understand</a>
 </div>
 
 <script>

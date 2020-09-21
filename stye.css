@@ -354,7 +354,7 @@ ul {
 
 /* End of index.html */
 
-/*  For cooking.html */
+/*  For classes.html */
 
 .new-row {
   display: flex;
@@ -532,6 +532,12 @@ ul {
   cursor: pointer;
   float: right;
   margin: 0 10px 0 10px;
+  text-decoration: none;
+}
+
+/* MODAL */
+.button-exit {
+  color: #fff;
   text-decoration: none;
 }
 

@@ -1,6 +1,3 @@
-/* https://medium.com/@zerox/keep-that-damn-footer-at-the-bottom-c7a921cb9551 for footer fix */
-
-
 * {
   box-sizing: border-box;
 }
@@ -51,9 +48,7 @@ span {
 img {
     vertical-align: middle;
     height: 50%;
-    background-size: cover;
     object-fit: cover;
-    object-position: 50% 50%;
 }
 
 /* Main Container */
@@ -112,13 +107,13 @@ h3 {
     width: auto;
     padding: 16px;
     margin-top: -22px;
-    color: white;
+    color: #4CAF50;
     font-weight: bold;
     font-size: 18px;
     transition: 0.6s ease;
     border-radius: 0 3px 3px 0;
     user-select: none;
-    background-color: #4CAF50;
+    background-color: #333;
     opacity: 0.8;
     -webkit-transform: perspective(1px) translateZ(0);
     transform: perspective(1px) translateZ(0);

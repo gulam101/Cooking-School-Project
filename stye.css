@@ -465,7 +465,8 @@ ul {
 }
 
 .button,
-.moreBtn {
+.moreBtn,
+.sign-up {
   background-color: #333;
   opacity: 0.9;
   border: none;
@@ -481,6 +482,10 @@ ul {
 
 .moreBtn {
   text-decoration: underline;
+}
+
+.sign-up {
+  border: 2px solid #4CAF50;
 }
 
 .button:hover,

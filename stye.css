@@ -407,25 +407,7 @@ ul {
     } 
   }  
 
-.new-row:hover {
-  transition-duration: 200ms;
-  transition: all;
-  opacity: 100%;
-}
-
-.firstClass:hover {
-  opacity: 96%;
-  display: inline-block;
-  color: rgba(0, 0, 0, 0);
-}
-
-.SecondClass:hover {
-  opacity: 96%;
-  display: inline-block;
-  color: rgba(0, 0, 0, 0);
-}
-
-.thirdClass:hover {
+.animation:hover {
   opacity: 96%;
   display: inline-block;
   color: rgba(0, 0, 0, 0);
@@ -499,7 +481,8 @@ ul {
    }
 }
 
-.button {
+.button,
+.moreBtn {
   background-color: #333;
   opacity: 0.9;
   border: none;
@@ -513,6 +496,10 @@ ul {
   cursor: pointer;
 }
 
+.moreBtn {
+  text-decoration: underline;
+}
+
 .button:hover,
 .moreBtn:hover {
   opacity: 1;
@@ -520,28 +507,17 @@ ul {
   text-decoration: underline;
 }
 
-.moreBtn {
-  background-color: #333;
-  opacity: 0.9;
-  border: none;
-  color: #4CAF50;
-  padding: 15px 32px;
+.wrapper,
+.info-container {
+  padding-top: 35px;
   text-align: center;
-  text-decoration: underline;
-  display: inline-block;
-  font-size: 21.3px;
-  margin: 4px 2px;
-  cursor: pointer;
 }
 
 /* Used to center moreBtn container in the middle */
 .info-container {
   text-align: center;
-}
-
-.wrapper {
-  padding-top: 35px;
-  text-align: center;
+  /* Stops the extra padding being added */
+  padding-top: 0px;
 }
 
 /*Covid-19 Notification*/

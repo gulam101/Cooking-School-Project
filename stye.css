@@ -1,3 +1,13 @@
+/* TODO TOMORROW:
+Fix CSS not changing correctly @"Sign Up Now!" button
+Add social media icons onto homepage
+Add Animation to media icons
+Add "Find Out More" button to information tab
+Clean-up HTML section and update CSS page
+
+*/
+
+
 * {
   box-sizing: border-box;
 }
@@ -351,6 +361,19 @@ ul {
     padding-left: 35px;
   }
 
+  .media-icons {
+    background-color: #333;
+    text-align: center;
+  }
+
+  .forced-spot {
+  background-color: #333;
+  padding-top: 5px;
+}
+
+.extra {
+  border: 2px solid #4CAF50;
+}
 
 /* End of index.html */
 
@@ -490,10 +513,30 @@ ul {
   cursor: pointer;
 }
 
-.button:hover {
+.button:hover,
+.moreBtn:hover {
   opacity: 1;
   font-style: italic;
   text-decoration: underline;
+}
+
+.moreBtn {
+  background-color: #333;
+  opacity: 0.9;
+  border: none;
+  color: #4CAF50;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: underline;
+  display: inline-block;
+  font-size: 21.3px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+/* Used to center moreBtn container in the middle */
+.info-container {
+  text-align: center;
 }
 
 .wrapper {

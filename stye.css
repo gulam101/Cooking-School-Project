@@ -117,7 +117,8 @@ h3 {
   .prev,
   .next,
   .dot-container,
-  .fade {
+  .fade,
+  .dot {
     display: none;
   } 
 } 
@@ -319,13 +320,27 @@ ul {
 
 /* Services Containers */
 
-.container {
-  padding-left: 7px;
-  padding-right: 7px;
+.container,
+.mobile-container {
+  padding-left: 11px;
+  padding-right: 11px;
   font-size: 18px;
   background-color: #333;
   color: #4CAF50;
   display: flex;
+}
+
+.mobile-container {
+}
+
+.mobile-container {
+  padding-right: 80px;
+  padding-left: 80px;
+}
+
+.mobile-container > .flex-grid {
+  width: 100%;
+  vertical-align: middle;
 }
 
 .container p {
@@ -541,7 +556,8 @@ ul {
 
 .button,
 .moreBtn,
-.sign-up {
+.sign-up,
+.mobile-sign-up {
   background-color: #333;
   opacity: 0.9;
   border: none;
@@ -553,6 +569,12 @@ ul {
   font-size: 21.3px;
   margin: 4px 2px;
   cursor: pointer;
+}
+
+/* Alt for weaker devices and lower res */
+.mobile-sign-up {
+  border: 2px solid #4CAF50;
+  font-size: 15px;
 }
 
 .moreBtn {

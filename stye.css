@@ -293,15 +293,19 @@ ul {
     }
   }
 
-  .img-active {
+  .tester-pic {
     display: none;
+    background-size: cover;
+    object-fit: cover;
+    object-position: 50% 50%;
   }
 
   /* Activates the image instead of slideshow */
   @media only screen and (max-width: 767px) {
-    .img-active {
+    .tester-pic {
       display: inherit;
-    }
+  }
+}
   
 
 /* End of NavBar */
@@ -321,11 +325,18 @@ ul {
   font-size: 18px;
   background-color: #333;
   color: #4CAF50;
+  display: flex;
 }
 
 .container p {
   color: #4CAF50;
 }
+
+@media only screen and (max-width: 615px) {
+  .container {
+    display: grid;
+  } 
+}  
 
 @media only screen and (max-width: 615px) {
   .container p {
@@ -337,7 +348,21 @@ ul {
   .container h2 {
     font-size: 15px;
   } 
-}   
+}
+
+@media only screen and (max-width: 540px) {
+  .container p {
+    font-size: 11px;
+  }
+
+  .container h2 {
+    font-size: 13px;
+  }
+
+  .container .moreBtn {
+    font-size: 16px;
+  }
+}
 
 /* Our Services */
 

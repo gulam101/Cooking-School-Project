@@ -513,7 +513,8 @@ button:hover {
 }
 
 /* The Modal (background) */
-.modal {
+.modal,
+.image-modal {
   display: none;
   position: fixed; 
   z-index: 1; 
@@ -573,6 +574,15 @@ hr {
 /* End of index.html */
 
 /*  For classes.html */
+
+.image-modal {
+  height: 40%;
+  overflow: hidden;
+}
+
+.image-modal > h2 {
+  text-align: center;
+}
 
 .new-row {
   display: flex;

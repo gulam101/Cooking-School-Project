@@ -109,6 +109,18 @@ h3 {
   border-left: none;
   border-right: none;
 }
+
+/* Disables Slideshow Animation for smaller/less powerful devices */
+@media only screen and (max-width: 767px) {
+  .mySlides,
+  .slideshow-container,
+  .prev,
+  .next,
+  .dot-container,
+  .fade {
+    display: none;
+  } 
+} 
   
   /* Next & previous buttons */
 .prev,
@@ -273,14 +285,24 @@ ul {
 
   @media only screen and (max-width: 767px) {
     .navbar {
-      height: 230px;
       flex-direction: column;
     }
 
-    .navbar .t-one, span {
-      font-size: 0px;
+    .t-one, span {
+      display: none;
     }
   }
+
+  .img-active {
+    display: none;
+  }
+
+  /* Activates the image instead of slideshow */
+  @media only screen and (max-width: 767px) {
+    .img-active {
+      display: inherit;
+    }
+  
 
 /* End of NavBar */
 
@@ -566,6 +588,13 @@ ul {
 .media-icons {
   font-size: 40px;
 }
+
+/* Fixes line */
+@media only screen and (max-width: 574px) {
+  .media-icons {
+    font-size: 29px;
+  } 
+} 
 
 
 /* Code provided by FontAwesome */

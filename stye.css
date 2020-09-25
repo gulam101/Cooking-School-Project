@@ -320,8 +320,8 @@ ul {
 /* Services Containers */
 
 .container {
-  padding-left: 15px;
-  padding-right: 15px;
+  padding-left: 7px;
+  padding-right: 7px;
   font-size: 18px;
   background-color: #333;
   color: #4CAF50;
@@ -339,7 +339,7 @@ ul {
 }  
 
 @media only screen and (max-width: 615px) {
-  .container p {
+  .col p {
     font-size: 15px;
   } 
 }  
@@ -351,18 +351,34 @@ ul {
 }
 
 @media only screen and (max-width: 540px) {
-  .container p {
-    font-size: 11px;
+  .container .col p {
+    font-size: 13px;
   }
 
-  .container h2 {
+  .container .col h2 {
     font-size: 13px;
   }
 
   .container .moreBtn {
+
     font-size: 16px;
   }
 }
+
+@media only screen and (max-width: 497px) {
+  .container .col p {
+    font-size: 11px;
+  }
+
+  .container h2 {
+    font-size: 11px;
+  }
+
+  .container .moreBtn {
+    font-size: 11px;
+  }
+}
+
 
 /* Our Services */
 
@@ -545,6 +561,13 @@ ul {
 
 .sign-up {
   border: 2px solid #4CAF50;
+}
+
+@media screen and (max-width: 467px) {
+  .sign-up {
+    font-size: 25px;
+    padding: 15px 15px;
+  }
 }
 
 .button:hover,

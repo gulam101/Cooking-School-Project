@@ -283,6 +283,10 @@ ul {
   font-style: italic;
   text-decoration: underline;
   }
+
+  .navbar {
+    border-bottom: 1px solid #4CAF50;
+  }
   
   .active {
     background-color: rgba(76, 175, 80, 0.6);
@@ -835,6 +839,30 @@ hr {
 .fa:hover {
   opacity: 0.7;
 }
+
+
+/* About US.html */
+
+.about-container {
+  background-color: #333;
+  height: 250px;
+  padding-top: 1px;
+}
+
+.about-container h1 {
+  text-align: center;
+  color: white;
+}
+
+.about-container p {
+  color: white;
+  text-align: center;
+  font-size: 19px;
+}
+
+/* End of About US.html */
+
+
 
 /* Footer */
 

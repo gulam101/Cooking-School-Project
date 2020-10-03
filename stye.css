@@ -106,7 +106,6 @@ h3 {
   margin: auto;
   background-size: cover;
   background: no-repeat center center fixed;
-  border: 0.5px solid #4CAF50;
   border-bottom: none;
   border-left: none;
   border-right: none;
@@ -531,8 +530,7 @@ button:hover {
 
 /* The Modal (background) */
 
-.modal,
-.image-modal {
+.signup-modal {
   display: none;
   position: fixed; 
   z-index: 1; 
@@ -547,25 +545,25 @@ button:hover {
 
 
 /* Modal Content/Box */
-/*
+
 .modal-content {
   background-color: #fefefe;
   margin: 5% auto 15% auto; 
   border: 1px solid #4CAF50;
   width: 80%; 
 }
-*/
+
 
 /* Style the horizontal ruler */
-/*
+
 hr {
   border: 1px solid #f1f1f1;
   margin-bottom: 25px;
 }
-*/
+
  
 /* The Close Button (x) */
-/*
+
 .close {
   position: absolute;
   right: 35px;
@@ -580,7 +578,7 @@ hr {
   color: #f44336;
   cursor: pointer;
 }
-*/
+
 
 /* Clear floats */
 .clearfix::after {

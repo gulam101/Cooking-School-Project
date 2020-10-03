@@ -575,7 +575,7 @@ hr {
 
 .close:hover,
 .close:focus {
-  color: #f44336;
+  color: #4CAF50;
   cursor: pointer;
 }
 
@@ -598,15 +598,6 @@ hr {
 /* End of index.html */
 
 /*  For classes.html */
-
-/* .image-modal {
-  height: 40%;
-  overflow: hidden;
-} */
-
-/* .image-modal > h2 {
-  text-align: center;
-} */
 
 .new-row {
   display: flex;

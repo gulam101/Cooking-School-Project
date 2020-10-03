@@ -20,7 +20,6 @@
       <ul>
         <p class="t-one"><span>Cooking</span> School </p>
           <li><a href="./aboutus.html"> About Us </a></li>
-          <li><a href="./online.html"> Online </a></li>
           <li><a class="active" href="./dist/classes.html"> Classes </a></li>
           <li><a href="../index.html"> Home </a></li>
       </ul>
@@ -60,22 +59,34 @@
 
   <!-- MODAL -->
 
-  <div id="info-opener" style="background-color: #333;" class="image-modal">
+  <div id="info-opener" style="background-color: #333;">
+    <div class="tester">
     <h2 style="color: #4caf50">What you will learn</h2>
-    <p style="color: #f8f8f8">
-      Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt
-      ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo
-      dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor
-      sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
-      tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et
-      accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus
-      est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr,
-      sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
-      voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren,
-      no sea takimata sanctus est Lorem ipsum dolor sit amet.
-    </p>
+      <p style="color: #f8f8f8">
+        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt
+        ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo
+        dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor
+        sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
+        tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et
+        accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus
+        est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr,
+        sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
+        voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren,
+        no sea takimata sanctus est Lorem ipsum dolor sit amet.
+      </p>
     <a href="#" class="button-exit" rel="modal:close">Close</a>
+    </div>
   </div>
+
+  <style>
+    .tester {
+      display: none;
+    }
+
+    .tester:active {
+      color: red;
+    }
+  </style>
 
 
 
@@ -85,25 +96,52 @@
         <div class="container-text">
             <div class="new-row">
                 <div class="animation">
-                    <a href="#">    
+                  <a href="#info-opener" rel="modal:open"> 
                     <img src="../pictures/img07.jpg" class="main-style" alt="" style="width:100%">
                     </a>
                     <p class="center-text">Beginners</p>
                  </div>
                <div class="animation">
-                <a href="#">
+                <a href="#info-opener" rel="modal:open">
                 <img src="../pictures/img08.jpg" class="main-style" alt="" style="width:100%">
                 </a>
                 <p class="center-text">Intermediate</p>
               </div>
                <div class="animation">
-                <a href="">
+                <a href="#info-opener" rel="modal:open">
                 <img src="../pictures/img09.jpg" class="main-style" alt="" style="width:100%">
                 </a>
                 <p class="center-text">Advanced</p>
                </div>
               </div>
             </div>
+
+
+            <h1 style="text-align: center;"> Wine Testing </h3>
+      
+              <div class="container-text">
+                  <div class="new-row">
+                      <div class="animation">
+                        <a href="#info-opener" rel="modal:open"> 
+                          <img src="../pictures/img07.jpg" class="main-style" alt="" style="width:100%">
+                          </a>
+                          <p class="center-text">Beginners</p>
+                       </div>
+                     <div class="animation">
+                      <a href="#info-opener" rel="modal:open">
+                      <img src="../pictures/img08.jpg" class="main-style" alt="" style="width:100%">
+                      </a>
+                      <p class="center-text">Intermediate</p>
+                    </div>
+                     <div class="animation">
+                      <a href="#info-opener" rel="modal:open">
+                      <img src="../pictures/img09.jpg" class="main-style" alt="" style="width:100%">
+                      </a>
+                      <p class="center-text">Advanced</p>
+                     </div>
+                    </div>
+                  </div>
+
   </section>
 
 

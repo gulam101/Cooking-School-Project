@@ -1,3 +1,5 @@
+/* Modal is broken at the bottom, code is commeneted out!*/
+
 *,
 *:before,
 *:after {
@@ -75,9 +77,19 @@ h1 {
   font-size: 50px;
 }
 
-h2 {
+
+h2,
+.aboutStarted {
   color: #f8f8ff;
   font-size: 30px;
+}
+
+.aboutStarted {
+  text-align: center;
+}
+
+.col .aboutStarted h2 {
+  padding-top: 175px;
 }
 
 h3 {
@@ -502,7 +514,8 @@ button:hover {
 }
 
 /* Float cancel and signup buttons and add an equal width */
-.cancelbtn, .signupbtn {
+.cancelbtn,
+.signupbtn {
   float: left;
   width: 50%;
 }
@@ -513,6 +526,7 @@ button:hover {
 }
 
 /* The Modal (background) */
+
 .modal,
 .image-modal {
   display: none;
@@ -527,21 +541,27 @@ button:hover {
   padding-top: 50px;
 }
 
+
 /* Modal Content/Box */
+/*
 .modal-content {
   background-color: #fefefe;
   margin: 5% auto 15% auto; 
   border: 1px solid #4CAF50;
   width: 80%; 
 }
+*/
 
 /* Style the horizontal ruler */
+/*
 hr {
   border: 1px solid #f1f1f1;
   margin-bottom: 25px;
 }
+*/
  
 /* The Close Button (x) */
+/*
 .close {
   position: absolute;
   right: 35px;
@@ -556,6 +576,7 @@ hr {
   color: #f44336;
   cursor: pointer;
 }
+*/
 
 /* Clear floats */
 .clearfix::after {
@@ -566,7 +587,8 @@ hr {
 
 /* Change styles for cancel button and signup button on extra small screens */
 @media screen and (max-width: 300px) {
-  .cancelbtn, .signupbtn {
+  .cancelbtn,
+  .signupbtn {
      width: 100%;
   }
 }
@@ -575,14 +597,14 @@ hr {
 
 /*  For classes.html */
 
-.image-modal {
+/* .image-modal {
   height: 40%;
   overflow: hidden;
-}
+} */
 
-.image-modal > h2 {
+/* .image-modal > h2 {
   text-align: center;
-}
+} */
 
 .new-row {
   display: flex;

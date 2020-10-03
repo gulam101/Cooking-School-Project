@@ -701,6 +701,11 @@ hr {
    }
 }
 
+/* For Clickable images that stops users from seeing bugged text */
+.tester {
+  display: none;
+}
+
 .button,
 .moreBtn,
 .sign-up,

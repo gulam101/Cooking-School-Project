@@ -344,9 +344,8 @@ ul {
 }
 
 .mobile-container {
-  padding-right: 80px;
-  padding-left: 80px;
   display: flex;
+  text-align: center;
 }
 
 .mobile-container > .flex-grid {
@@ -366,7 +365,6 @@ ul {
 @media only screen and (max-width: 468px) {
   .reduced-size {
     display: grid;
-    display: inherit;
   }
   
   .mobile-responsive {
@@ -465,6 +463,30 @@ ul {
     padding-right: 35px;
     padding-left: 35px;
   }
+
+  @media only screen and (max-width: 500px) {
+    .background-container h1 {
+      font-size: 26px;
+    }
+  }
+
+  @media only screen and (max-width: 335px) {
+    .background-container h1 {
+      font-size: 23px;
+    }
+  }
+
+    @media only screen and (max-width: 335px) {
+      .background p {
+        font-size: 21px;
+      }
+    }
+
+      @media only screen and (max-width: 24px) {
+        .background p {
+          font-size: 21px;
+        }
+      }
 
   .forced-spot {
   background-color: #333;
@@ -848,11 +870,26 @@ hr {
   color: white;
 }
 
+@media only screen and (max-width: 574px) {
+  .about-container h1 {
+    font-size: 39px;
+  } 
+} 
+
+
 .about-container p {
   color: white;
   text-align: center;
   font-size: 19px;
 }
+
+
+@media only screen and (max-width: 574px) {
+  .about-container p {
+    font-size: 17px;
+  } 
+} 
+
 
 /* End of About US.html */
 

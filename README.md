@@ -66,6 +66,7 @@ I went with plain CSS and jQuery because I didn't need to use antyhing else to c
 ### Improvements:
 
 ### Development Changes:
+Development changes tracks the changes that happend to the project. It orders it by date and description.
 
 ### Resources:
 - StackOverFlow

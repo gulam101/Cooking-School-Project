@@ -79,6 +79,12 @@ Development changes tracks the changes that happend to the project. It orders it
 - https://pixabay.com/
 
 ### Screenshots:
+![img01](https://user-images.githubusercontent.com/45819118/95360059-c9f6bb80-08c2-11eb-9d3e-40b3672b8868.PNG)
+![img02](https://user-images.githubusercontent.com/45819118/95360064-cbc07f00-08c2-11eb-9a43-3d140007678e.PNG)
+![img03](https://user-images.githubusercontent.com/45819118/95360065-cbc07f00-08c2-11eb-8e12-d81a678a71ee.PNG)
+![img04](https://user-images.githubusercontent.com/45819118/95360066-cbc07f00-08c2-11eb-87b8-bb1e7e8384cd.PNG)
+![img05](https://user-images.githubusercontent.com/45819118/95360068-ccf1ac00-08c2-11eb-9257-71b5025bcf85.PNG)
+
 
 ### Credits:
 - Gulam Qasim (Main Design)

@@ -35,6 +35,9 @@ Part of the Web Development &amp; Multimedia unit
 
 [Credits](#Credits)  
 <a name="Credits"/>
+
+![img01](https://user-images.githubusercontent.com/45819118/95360059-c9f6bb80-08c2-11eb-9d3e-40b3672b8868.PNG)
+
 ### Description: 
 
 This project I did for my level 4 HNC course for multi-media. For this project, I had to build a website that would be submitted to the assignment. During this design I had to do research into building a website and I had to pick a theme. For the theme of the website I went with a cooking website that would be focused on classes and online classes. 
@@ -79,7 +82,6 @@ Development changes tracks the changes that happend to the project. It orders it
 - https://pixabay.com/
 
 ### Screenshots:
-![img01](https://user-images.githubusercontent.com/45819118/95360059-c9f6bb80-08c2-11eb-9d3e-40b3672b8868.PNG)
 ![img02](https://user-images.githubusercontent.com/45819118/95360064-cbc07f00-08c2-11eb-9a43-3d140007678e.PNG)
 ![img03](https://user-images.githubusercontent.com/45819118/95360065-cbc07f00-08c2-11eb-8e12-d81a678a71ee.PNG)
 ![img04](https://user-images.githubusercontent.com/45819118/95360066-cbc07f00-08c2-11eb-87b8-bb1e7e8384cd.PNG)

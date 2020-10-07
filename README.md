@@ -53,8 +53,11 @@ For the core element of the website I went with the cooking theme in the end bec
 ### Development Changes:
 
 ### Resources:
+- StackOverFlow
+- Google Images
 
 ### Screenshots:
 
 ### Credits:
+- Gulam Qasim (Main Design)
 

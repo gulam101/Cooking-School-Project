@@ -45,7 +45,7 @@ I went with plain CSS and jQuery because I didn't need to use antyhing else to c
 
 ### Prerequisites:
 - Any Modern Browser (Preferably Chrome or Firefox)
-- Any IDE to view code (Preferably Atom or Brackets)
+- Any IDE to view code (Preferably VS Code or Brackets)
 - Access to developer tools on web browser
 
 ### Instructions:
@@ -70,4 +70,3 @@ I went with plain CSS and jQuery because I didn't need to use antyhing else to c
 
 ### Credits:
 - Gulam Qasim (Main Design)
-

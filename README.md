@@ -74,8 +74,9 @@ I had used jQuery modal and I used an API that would do most of the work for me,
 Development changes tracks the changes that happend to the project. It orders it by date and description.
 
 ### Resources:
-- StackOverFlow
-- Google Images
+- https://stackoverflow.com/
+- https://www.google.com/imghp?hl=EN
+- https://pixabay.com/
 
 ### Screenshots:
 

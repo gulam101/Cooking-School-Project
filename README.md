@@ -67,6 +67,8 @@ I had a few issues such as in the navbar (menu) there was supposed to be icons t
 I had used jQuery modal and I used an API that would do most of the work for me, however I realised I used this twice for a sign-up link and for a the classes page that would let the user click on the images and it would show off the information. In my attempt to get a sign-up button I had broken the modal for the classes page and this meant that it would not display correctly, so instead I had to remove the information.
 
 ### Improvements:
+- Improvement ID:
+- Description: 
 
 ### Development Changes:
 Development changes tracks the changes that happend to the project. It orders it by date and description.

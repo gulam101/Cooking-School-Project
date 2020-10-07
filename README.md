@@ -37,7 +37,7 @@ Part of the Web Development &amp; Multimedia unit
 <a name="Credits"/>
 ### Description: 
 
-This project I did for college was about increasing my knowledge in Windows Standard Form. I was 
+This project I did for my level 4 HNC course for multi-media. For this project, I had to build a website that would be submitted to the assignment. During this design I had to do research into building a website and I had to pick a theme. For the theme of the website I went with a cooking website that would be focused on classes and signign up.
 
 ### Prerequisites:
 

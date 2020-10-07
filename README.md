@@ -41,6 +41,8 @@ This project I did for my level 4 HNC course for multi-media. For this project, 
 
 For the core element of the website I went with the cooking theme in the end because I already had some research to begin with. I do admit I had no idea how I was going to lay it out since I didn’t want to spend too much time on the website. For inspiration I did look at a few website layouts that shared a similar theme to my design.
 
+I went with plain CSS and jQuery because I didn't need to use antyhing else to complete the website. Everything worked fine and I used manual-tetsing to make sure that featueres worked fine.
+
 ### Prerequisites:
 - Any Modern Browser (Preferably Chrome or Firefox)
 - Any IDE to view code (Preferably Atom or Brackets)

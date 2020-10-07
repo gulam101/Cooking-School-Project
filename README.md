@@ -55,6 +55,11 @@ I went with plain CSS and jQuery because I didn't need to use antyhing else to c
 - Step 4: Right click on the .html file and click Live Server
 
 ### What I learned:
+- Better understanding of Flexbox
+- Better understanding of jQuery
+- Not repeating lines in CSS code
+- Inheriting same functions of CSS code
+- Better commenting on code
 
 ### Constraints:
 

@@ -37,7 +37,8 @@ Part of the Web Development &amp; Multimedia unit
 <a name="Credits"/>
 ### Description: 
 
-This project I did for my level 4 HNC course for multi-media. For this project, I had to build a website that would be submitted to the assignment. During this design I had to do research into building a website and I had to pick a theme. For the theme of the website I went with a cooking website that would be focused on classes and signign up.
+This project I did for my level 4 HNC course for multi-media. For this project, I had to build a website that would be submitted to the assignment. During this design I had to do research into building a website and I had to pick a theme. For the theme of the website I went with a cooking website that would be focused on classes and online classes. 
+For the core element of the website I went with the cooking theme in the end because I already had some research to begin with. I do admit I had no idea how I was going to lay it out since I didn’t want to spend too much time on the website. For inspiration I did look at a few website layouts that shared a similar theme to my design.
 
 ### Prerequisites:
 

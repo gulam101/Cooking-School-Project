@@ -49,6 +49,10 @@ I went with plain CSS and jQuery because I didn't need to use antyhing else to c
 - Access to developer tools on web browser
 
 ### Instructions:
+- Step 1: Load Up IDE (If you don't have one use this: https://visualstudio.microsoft.com/)
+- Step 2: Clone project or download from GitHub
+- Step 3: Load up project in IDE
+- Step 4: Right click on the .html file and click Live Server
 
 ### What I learned:
 

@@ -64,7 +64,7 @@ I went with plain CSS and jQuery because I didn't need to use antyhing else to c
 ### Constraints:
 I had a few issues such as in the navbar (menu) there was supposed to be icons that would be next the menu and they would display inidcaiting to the user, however this did not work. Coolfonts API did not work correclty and instead would not show any of the icons refardlkess if they were free or not. In the end I had to scrap that design and place the fonts in the footer menu. 
 
-I had used jQuery modal and I used an API that would do most of the work for me, however I realised I used this twice for a sign-up link and for a the classes page that would let the user click on the imagesa and it would show off the information. In my attempt to get a sign-up button I had broke the modal for the classes page and this meant that it would not display correctly, so instead I had to remove the information.
+I had used jQuery modal and I used an API that would do most of the work for me, however I realised I used this twice for a sign-up link and for a the classes page that would let the user click on the images and it would show off the information. In my attempt to get a sign-up button I had broken the modal for the classes page and this meant that it would not display correctly, so instead I had to remove the information.
 
 ### Improvements:
 

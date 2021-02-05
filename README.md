@@ -1,5 +1,5 @@
 # Cooking-School-Project
-## Built using Html5, CSS3 and jQuery - Part of Multi-media Unit
+## Built using Html5, CSS3 and jQuery - Part of Web Development Unit
 
 # Table of Contents:
 
